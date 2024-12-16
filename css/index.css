@@ -1,0 +1,27 @@
+#name-header {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    background-color:blue;
+    text-align: center;
+    border-radius: 10%;
+    text-decoration-style: wavy;
+    
+   
+
+}
+#about {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:aqua
+}
+#experience {
+    font-family:Cambria, cursive;
+    font-size: 20px;
+    background-color: lightcoral
+
+}
+#connect {
+    font-family:Verdana;
+    font-size: 20px;
+    background-color: yellow;
+}
