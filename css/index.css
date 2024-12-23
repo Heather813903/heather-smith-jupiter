@@ -1,27 +1,39 @@
-#name-header {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 40px;
-    background-color:blue;
-    text-align: center;
-    border-radius: 10%;
-    text-decoration-style: wavy;
-    
-   
+
+body{
+    background-color: rgb(217, 200, 200);
+    color:blueviolet;
+    font-family: fantasy;
+      
+}
+
+.dorsa-regular {
+    font-family: "Dorsa", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
+#name-header {
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: rgb(175, 25, 80);
+   
+    }
+    
+
+
 #about {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color:aqua
+    background-color:aqua;
 }
 #experience {
     font-family:Cambria, cursive;
     font-size: 20px;
-    background-color: lightcoral
+    background-color: lightcoral;
 
 }
 #connect {
     font-family:Verdana;
     font-size: 20px;
-    background-color: yellow;
+    background-color: rgb(221, 221, 71);
 }
