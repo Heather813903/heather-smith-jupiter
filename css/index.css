@@ -5,7 +5,16 @@ body{
     font-family: fantasy;
       
 }
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight:200;
+    color: rgb(199, 38, 135);
 
+}
+li {
+    margin-block: 5%;
+}
 .dorsa-regular {
     font-family: "Dorsa", serif;
     font-weight: 400;
@@ -13,27 +22,34 @@ body{
 
 }
 #name-header {
+    border-style:inset;
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       text-align: center;
       color: rgb(175, 25, 80);
    
-    }
-    
-
+    }   
 
 #about {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     background-color:aqua;
+    padding-top: .05%;
+    padding-left: 1%;
 }
 #experience {
     font-family:Cambria, cursive;
     font-size: 20px;
     background-color: lightcoral;
+    padding-top: .05%;
+    padding-left: 1%;
+    
 
 }
 #connect {
     font-family:Verdana;
     font-size: 20px;
     background-color: rgb(221, 221, 71);
+    text-align: center;
+    
+    
 }
