@@ -13,7 +13,7 @@ h2 {
 
 }
 li {
-    margin-block: 5%;
+    margin-block:3%;
 }
 .dorsa-regular {
     font-family: "Dorsa", serif;
@@ -23,33 +23,45 @@ li {
 }
 #name-header {
     border-style:inset;
-     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-align: center;
-      color: rgb(175, 25, 80);
-   
-    }   
+    border-width: 20px;
+    border-color: rgb(81, 0, 255);
+     
+        font-family: "Tangerine", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: rgb(175, 25, 80);
+      }
+      
+     
+      
+    
 
 #about {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
     background-color:aqua;
     padding-top: .05%;
     padding-left: 1%;
+    margin:20px;
 }
 #experience {
-    font-family:Cambria, cursive;
-    font-size: 20px;
+    font-size: 15px;
     background-color: lightcoral;
     padding-top: .05%;
     padding-left: 1%;
+    margin:20px
     
 
 }
 #connect {
-    font-family:Verdana;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgb(221, 221, 71);
-    text-align: center;
+    margin: 20px;
+    padding-top: .05%;
+    padding-left:1%;
+    
+    
+    
     
     
 }
