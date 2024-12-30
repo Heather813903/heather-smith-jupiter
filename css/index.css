@@ -1,5 +1,14 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    list-style: none;
+    position: sticky;
+}
+    
 
 body{
+    margin: 0;
     background-color: rgb(217, 200, 200);
     color:blueviolet;
     font-family: fantasy;
@@ -33,9 +42,6 @@ li {
         color: rgb(175, 25, 80);
       }
       
-     
-      
-    
 
 #about {
     font-size: 15px;
@@ -44,15 +50,30 @@ li {
     padding-left: 1%;
     margin:20px;
 }
+
 #experience {
     font-size: 15px;
     background-color: lightcoral;
     padding-top: .05%;
     padding-left: 1%;
     margin:20px
-    
+}   
+#skills {
+    font-size: 15px;
+    background-color: cadetblue;
+    padding-top: .05%;
+    padding-left: 1%;
+    margin:20px;
+   } 
 
+#projects {
+    font-size: 15px;
+    background-color: rgb(20, 6, 74);
+    padding-top: .05% ;
+    padding-left: 1%;
+    margin: 20px;
 }
+
 #connect {
     font-size: 15px;
     background-color: rgb(221, 221, 71);
@@ -60,8 +81,6 @@ li {
     padding-top: .05%;
     padding-left:1%;
     
+}   
+
     
-    
-    
-    
-}
