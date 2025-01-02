@@ -1,9 +1,11 @@
 #nav{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 4em;
+    gap: 5em;
     list-style: none;
-    position: sticky;
+    position: sticky; 
+    
 }
     
 
@@ -14,6 +16,7 @@ body{
     font-family: fantasy;
       
 }
+
 h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
@@ -21,6 +24,7 @@ h2 {
     color: rgb(199, 38, 135);
 
 }
+
 li {
     margin-block:3%;
 }
@@ -40,7 +44,7 @@ li {
         font-style: normal;
         text-align: center;
         color: rgb(175, 25, 80);
-      }
+}
       
 
 #about {
@@ -48,23 +52,47 @@ li {
     background-color:aqua;
     padding-top: .05%;
     padding-left: 1%;
+    padding-bottom: 40%;
     margin:20px;
 }
 
 #experience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 10px;
     font-size: 15px;
-    background-color: lightcoral;
+   background-color: lightcoral;
     padding-top: .05%;
     padding-left: 1%;
     margin:20px
+    
 }   
+
+    
+
+#date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+#exp-1-heading{
+    display: flex;
+    flex-direction: row;
+
+}
+ 
+
 #skills {
     font-size: 15px;
     background-color: cadetblue;
     padding-top: .05%;
     padding-left: 1%;
     margin:20px;
-   } 
+ } 
 
 #projects {
     font-size: 15px;
