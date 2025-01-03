@@ -5,6 +5,8 @@
     gap: 5em;
     list-style: none;
     position: sticky; 
+    width:100%;
+    
     
 }
     
@@ -14,6 +16,7 @@ body{
     background-color: rgb(217, 200, 200);
     color:blueviolet;
     font-family: fantasy;
+    
       
 }
 
@@ -52,37 +55,50 @@ li {
     background-color:aqua;
     padding-top: .05%;
     padding-left: 1%;
-    padding-bottom: 40%;
+    padding-bottom: 46%;
     margin:20px;
 }
 
 #experience {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap:wrap;
     gap: 10px;
     font-size: 15px;
-   background-color: lightcoral;
+    background-color: lightcoral;
     padding-top: .05%;
     padding-left: 1%;
-    margin:20px
+    margin:20px;
+    
+    
+    
     
 }   
 
     
 
-#date {
+.job-1 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     font-weight: bold;
     
 }
 
-#exp-1-heading{
+.exp-1-heading{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    
+    
 
+}
+
+
+.exp-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
  
 
@@ -99,15 +115,20 @@ li {
     background-color: rgb(20, 6, 74);
     padding-top: .05% ;
     padding-left: 1%;
-    margin: 20px;
+    margin: 20px; 
 }
 
 #connect {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 15px;
     background-color: rgb(221, 221, 71);
     margin: 20px;
     padding-top: .05%;
     padding-left:1%;
+    text-align: center;
     
 }   
 
