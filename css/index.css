@@ -69,28 +69,28 @@ li {
     padding-top: .05%;
     padding-left: 1%;
     margin:20px;
-    
-    
-    
-    
+    justify-content: center;
+  
 }   
 
-    
+  .section-title {
+    display:flex;
+    width:100%;
+    justify-content: center;
+  }  
 
 .job-1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     font-weight: bold;
+    width:100%;
+    justify-content: space-between;
     
 }
 
 .exp-1-heading{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    
 
 }
 
@@ -99,6 +99,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width:100%;
 }
  
 
