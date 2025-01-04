@@ -1,9 +1,13 @@
 #nav{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 4em;
+    gap: 5em;
     list-style: none;
-    position: sticky;
+    position: sticky; 
+    width:100%;
+    
+    
 }
     
 
@@ -12,8 +16,10 @@ body{
     background-color: rgb(217, 200, 200);
     color:blueviolet;
     font-family: fantasy;
+    
       
 }
+
 h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
@@ -21,6 +27,7 @@ h2 {
     color: rgb(199, 38, 135);
 
 }
+
 li {
     margin-block:3%;
 }
@@ -40,7 +47,7 @@ li {
         font-style: normal;
         text-align: center;
         color: rgb(175, 25, 80);
-      }
+}
       
 
 #about {
@@ -48,38 +55,81 @@ li {
     background-color:aqua;
     padding-top: .05%;
     padding-left: 1%;
+    padding-bottom: 46%;
     margin:20px;
 }
 
 #experience {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 10px;
     font-size: 15px;
     background-color: lightcoral;
     padding-top: .05%;
     padding-left: 1%;
-    margin:20px
+    margin:20px;
+    justify-content: center;
+  
 }   
+
+  .section-title {
+    display:flex;
+    width:100%;
+    justify-content: center;
+  }  
+
+.job-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: bold;
+    width:100%;
+    justify-content: space-between;
+    
+}
+
+.exp-1-heading{
+    display: flex;
+
+}
+
+
+.exp-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:100%;
+}
+ 
+
 #skills {
     font-size: 15px;
     background-color: cadetblue;
     padding-top: .05%;
     padding-left: 1%;
     margin:20px;
-   } 
+ } 
 
 #projects {
     font-size: 15px;
     background-color: rgb(20, 6, 74);
     padding-top: .05% ;
     padding-left: 1%;
-    margin: 20px;
+    margin: 20px; 
 }
 
 #connect {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 15px;
     background-color: rgb(221, 221, 71);
     margin: 20px;
     padding-top: .05%;
     padding-left:1%;
+    text-align: center;
     
 }   
 
