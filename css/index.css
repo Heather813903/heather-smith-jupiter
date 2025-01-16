@@ -127,12 +127,17 @@ li {
  
 
 #skills {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
     font-size: 1rem;
     background-color: aqua;
     padding-top: .05%;
     padding-left: 1%;
     margin:1.5em;
- } 
+ 
+
+ }
 
 #projects {
     font-size: 1rem;
@@ -179,9 +184,13 @@ li {
     body{
         margin: 1em;
         background-color:goldenrod;
-        font-size: 1.5em;
-      
-        
+        font-size: 1.5em; 
+    }
+    #experience {
+        flex-direction: column;
+    }
+    .job-1 {
+        width:auto;
     }
 
     h2 {
@@ -203,7 +212,7 @@ h2 {
     color:lightcoral;
 }
 nav {
-    background:blanchedalmond ;
+    background-color: transparent ;
 }
 }
 
