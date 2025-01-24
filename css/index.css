@@ -1,246 +1,222 @@
 /*standard desktop*/
 
-#nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 5em;
-    list-style: none;
-    position: sticky; 
-    max-width:100%;
-    justify-content: center;
-    
-}
-      
-
-body{
-    margin: 24px;
-    background-color: rgb(217, 200, 200);
-    color:blueviolet;
-    font-family: fantasy;
-    
-
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5em;
+  list-style: none;
+  position: sticky;
+  max-width: 100%;
+  justify-content: center;
 }
 
-h1, h2, h3, p {
-    margin-top: 0;
+body {
+  margin: 24px;
+  background-color: rgb(217, 200, 200);
+  color: blueviolet;
+  font-family: fantasy;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
 
 h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
-    font-weight:200;
-    color: rgb(199, 38, 135);
-
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: rgb(199, 38, 135);
 }
 
 li {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  
-    
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-
 
 .dorsa-regular {
-    font-family: "Dorsa", serif;
-    font-weight: 400;
-    font-style: normal;
-
+  font-family: "Dorsa", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #name-header {
-    border-style:inset;
-    border-width: .5em;
-    border-color: rgb(81, 0, 255);
-     
-        font-family: "Tangerine", serif;
-        font-weight: 800;
-        font-style:oblique;
-        text-align: center;
-        color: rgb(175, 25, 80);
+  border-style: inset;
+  border-width: 0.5em;
+  border-color: rgb(81, 0, 255);
+
+  font-family: "Tangerine", serif;
+  font-weight: 800;
+  font-style: oblique;
+  text-align: center;
+  color: rgb(175, 25, 80);
 }
-      
 
 #about {
-    font-size: 1rem;
-    background-color:aqua;
-    padding-top: .05%;
-    padding-left: 1%;  
-    margin:1.5em;
-    
+  font-size: 1rem;
+  background-color: aqua;
+  padding-top: 0.05%;
+  padding-left: 1%;
+  margin: 1.5em;
 }
 
 #experience {
-   display: flex;
-   background-color: aqua;
-    padding-top: .05%;
-    padding-left: 1%;
-    padding-right: 2.5%;
-    justify-content: space-around;
-    margin:1.5em;
-    
-}   
+  display: flex;
+  background-color: aqua;
+  padding-top: 0.05%;
+  padding-left: 1%;
+  padding-right: 2.5%;
+  justify-content: space-around;
+  margin: 1.5em;
+}
 
-  .section-title {
-    display:flex;
-    flex-direction: column;
-    width:100%;
-     
-}  
+.section-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 .job-1 {
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: bold;
-    width:100%;
-    align-items: space-around;
-    border: 1.5em solid blanchedalmond
-    
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  width: 100%;
+  align-items: space-around;
+  border: 1.5em solid blanchedalmond;
 }
 
-.exp-heading{
-    display: flex;
-
-
+.exp-heading {
+  display: flex;
 }
 
-
-.exp-desc{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width:100%;
+.exp-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
- 
 
 #skills {
-    display:flex;
-    flex-direction: column;
-    align-content: center;
-    font-size: 1rem;
-    background-color: aqua;
-    padding-top: .05%;
-    padding-left: 1%;
-    margin:1.5em;
- 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-size: 1rem;
+  background-color: aqua;
+  padding-top: 0.05%;
+  padding-left: 1%;
+  margin: 1.5em;
+}
 
- }
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5em;
+  list-style: none;
+  position: sticky;
+  max-width: 100%;
+  justify-content: center;
+  /** color:black;*/
+}
 
 #projects {
-    font-size: 1rem;
-    background-color: aqua;
-    padding-top: .05% ;
-    padding-left: 1%;
-    margin: 1.5em; 
+  font-size: 1rem;
+  background-color: aqua;
+  padding-top: 0.05%;
+  padding-left: 1%;
+  margin: 1.5em;
 }
 
 #connect {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1em;
-    background-color: aqua;
-    padding-top: .05%;
-    padding-left:1%;
-    margin:1.5em;
-    padding: 1em;
-    
-}   
-
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1em;
+  background-color: aqua;
+  padding-top: 0.05%;
+  padding-left: 1%;
+  margin: 1.5em;
+  padding: 1em;
+}
 
 .connect-one {
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-    border: .2em solid blanchedalmond;
-    
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 0.2em solid blanchedalmond;
 }
 .connect-two {
-    display: flex;
-    flex-wrap: wrap; 
-    width:100%;
-    border: .2em solid blanchedalmond;
-   
-    
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 0.2em solid blanchedalmond;
 }
-    /*tablet*/
+/*tablet*/
 @media (max-width: 800px) {
-    body{
-        margin: 1em;
-        background-color:black;
-        font-size: 1.5em; 
-        
-       
-    }
-
-
-}
-    
-  #name-header {
-    color:red;
-  }  
-    #experience {
-        flex-direction: column;
-        color:darkblue;
-        background-color: red;
-    }
-    .job-1 {
-        width:auto;
-
-    }
-    #about {
-        color:darkblue;
-        background-color: red;
-    }
-
-    h2 {
-        font-size: 1.5em;
-        color:white;
-    }
-    #skills {
-        color:darkblue;
-        background-color: red;
-    }
-    #projects {
-        color:darkblue;
-        background-color: red;
-    }
-    #connect {
-        color:darkblue;
-        background-color: red;
-    }
-    .footer{
-        color:white;
-    }
-
-    /*mobile*/
-@media (max-width: 500px) {
-    body{
-        margin: .5em;
-        color:lightblue;
-        background-color: white;
-        font-style: italic;   
-
-    }
-
- #name-header{
-    color:navy;
+  body {
+    margin: 1em;
+    background-color: black;
+    font-size: 1.5em;
   }
-h2 {
-    color:navy;
+
+  #name-header {
+    color: red;
+  }
+
+  #experience {
+    flex-direction: column;
+    color: darkblue;
+    background-color: red;
+  }
+  .job-1 {
+    width: auto;
+  }
+  #about {
+    color: darkblue;
+    background-color: red;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: white;
+  }
+  #skills {
+    color: darkblue;
+    background-color: red;
+  }
+  #projects {
+    color: darkblue;
+    background-color: red;
+  }
+  #connect {
+    color: darkblue;
+    background-color: red;
+  }
+  .footer {
+    color: white;
+  }
 }
-p {
+/*mobile*/
+@media (max-width: 500px) {
+  body {
+    margin: 0.5em;
+    color: lightblue;
+    background-color: white;
+    font-style: italic;
+  }
+
+  #name-header {
+    color: navy;
+  }
+  h2 {
+    color: navy;
+  }
+  p {
     color: black;
+  }
 }
-.footer {
-    color:white;
-}
-}
-
-
