@@ -21,9 +21,6 @@ body{
     
 
 }
-  
-
-
 
 h1, h2, h3, p {
     margin-top: 0;
@@ -45,8 +42,6 @@ li {
   
     
 }
-
-
 
 
 .dorsa-regular {
@@ -86,19 +81,14 @@ li {
     justify-content: space-around;
     margin:1.5em;
     
-    
-
-
 }   
 
   .section-title {
     display:flex;
     flex-direction: column;
     width:100%;
-  
-       
-    
-  }  
+     
+}  
 
 .job-1 {
     display: flex;
@@ -183,36 +173,73 @@ li {
 @media (max-width: 800px) {
     body{
         margin: 1em;
-        background-color:goldenrod;
+        background-color:black;
         font-size: 1.5em; 
+        
+       
     }
+
+
+}
+    
+  #name-header {
+    color:red;
+  }  
     #experience {
         flex-direction: column;
+        color:darkblue;
+        background-color: red;
     }
     .job-1 {
         width:auto;
+
+    }
+    #about {
+        color:darkblue;
+        background-color: red;
     }
 
     h2 {
         font-size: 1.5em;
         color:white;
     }
-}
+    #skills {
+        color:darkblue;
+        background-color: red;
+    }
+    #projects {
+        color:darkblue;
+        background-color: red;
+    }
+    #connect {
+        color:darkblue;
+        background-color: red;
+    }
+    .footer{
+        color:white;
+    }
+
     /*mobile*/
 @media (max-width: 500px) {
     body{
         margin: .5em;
+        color:lightblue;
         background-color: white;
-        font-style: italic;  
-        
+        font-style: italic;   
 
     }
-     
+
+ #name-header{
+    color:navy;
+  }
 h2 {
-    color:lightcoral;
+    color:navy;
 }
-nav {
-    background-color: transparent ;
+p {
+    color: black;
+}
+.footer {
+    color:white;
 }
 }
 

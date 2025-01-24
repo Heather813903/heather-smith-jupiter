@@ -29,3 +29,39 @@ console.log(lists);
 
 const listsArray = Array.from(lists);
 console.log(listsArray);
+
+//leave message function and callback
+const messageForm = document.querySelector("form[name='leave_message']");
+console.log({messageForm});
+messageForm.addEventListener("submit", handleSubmit)
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        const usersName = event.target.usersName.value;
+        const usersEmail = event.target.usersEmail.value;
+        const usersMessage = event.target.usersMessage.value;
+
+    const messageSection = document.querySelector('#messages');
+    const messageList = messageSection.querySelector('ul');
+    const newMessage = document.createElement('li');
+newMessage.innerHTML = 
+        `<div>
+            <a href="mailto:${usersEmail}">${usersName}</a><span>:${usersMessage}</span>;
+       </div>`
+const removeButton = document.createElement("button");
+removeButton.innerText = "Remove";
+removeButton.type = "button";
+removeButton.addEventListener("click", function() {
+    const entry = removeButton.parentNode;
+    entry.remove();
+
+});
+
+newMessage.appendChild(removeButton);
+messageList.appendChild(newMessage);
+
+
+console.log('User Name', usersName);
+console.log('Email', usersEmail);
+console.log('Message', usersMessage);
+};
