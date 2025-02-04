@@ -62,3 +62,29 @@ function handleSubmit(event) {
   console.log("Message", usersMessage);
   event.target.reset();
 }
+const projectSection = document.getElementById("projects");
+console.log(projectSection);
+
+const projectList = projectSection.querySelector("ul");
+console.log(projectList);
+
+
+fetch("https://api.github.com/users/Heather813903/repos").then((response) => {
+  return response.json();
+})
+.then((repositories) => {
+console.log(repositories);
+for (let i = 0; i < repositories.length; i++) {
+  const project = repositories[i].name;
+  const li = document.createElement("li");
+  li.innerText = project;
+  projectList.appendChild(li)
+
+}
+})
+.catch((error) => {
+console.log(error);
+});
+
+
+

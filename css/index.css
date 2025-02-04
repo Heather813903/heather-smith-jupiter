@@ -23,6 +23,7 @@ h2,
 h3,
 p {
   margin-top: 0;
+
 }
 
 h2 {
@@ -36,6 +37,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: center;
 }
 
 .dorsa-regular {
@@ -47,7 +49,6 @@ li {
   border-style: inset;
   border-width: 0.5em;
   border-color: rgb(81, 0, 255);
-
   font-family: "Tangerine", serif;
   font-weight: 800;
   font-style: oblique;
@@ -103,12 +104,14 @@ li {
 #skills {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-content: center;
   font-size: 1rem;
-  background-color: aqua;
-  padding-top: 0.05%;
+  padding-top: 0.5%;
   padding-left: 1%;
   margin: 1.5em;
+ /* width: 100%;*/
+
 }
 
 ul {
@@ -120,8 +123,10 @@ ul {
   position: sticky;
   max-width: 100%;
   justify-content: center;
-  /** color:black;*/
+  background-color: blanchedalmond;
+  
 }
+
 
 #projects {
   font-size: 1rem;
@@ -129,15 +134,23 @@ ul {
   padding-top: 0.05%;
   padding-left: 1%;
   margin: 1.5em;
+  
 }
-
-#connect {
+#projects ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  
+
+}
+
+#connect {
   font-size: 1em;
+  color:blueviolet;
   background-color: aqua;
+  border-color: blanchedalmond;
+  justify-content: space-around;
   padding-top: 0.05%;
   padding-left: 1%;
   margin: 1.5em;
@@ -148,20 +161,33 @@ ul {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  border: 0.2em solid blanchedalmond;
+  justify-content: center;
+  padding-top: .05em;
+  padding-left: 1%;
+  margin: 1.5em;
+  
 }
 .connect-two {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  border: 0.2em solid blanchedalmond;
+  justify-content: center;
+  padding-top: 0.05%;
+  padding-left: 1%;
+  margin: 1.5em;
+
 }
+
+
 /*tablet*/
 @media (max-width: 800px) {
   body {
     margin: 1em;
     background-color: black;
     font-size: 1.5em;
+  }
+  #nav {
+    background-color: red;
   }
 
   #name-header {
@@ -181,10 +207,26 @@ ul {
     background-color: red;
   }
 
-  h2 {
-    font-size: 1.5em;
-    color: white;
+  
+    h2 {
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      color: red;
+      text-align: center;
+      margin-bottom: 20px;
+
   }
+  
+  
+  form[name="leave_message"] label {
+    font-family: 'Arial', sans-serif;
+    font-size: .5em;
+    margin-bottom: 1em;
+    display: block;
+    color:black; 
+    
+}
+
   #skills {
     color: darkblue;
     background-color: red;
@@ -197,26 +239,77 @@ ul {
     color: darkblue;
     background-color: red;
   }
-  .footer {
+  .connect-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    border-radius: 0.5em;
+  }
+  .connect-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    border-radius: 0.5em;
+    
+  }
+  
+  label {
+    font-family: Arial, sans-serif;  
+    font-size: 16px;  
+    color:red;  
+    background-color: #f5f5f5;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+
+  footer {
     color: white;
   }
-}
+
+  }
 /*mobile*/
 @media (max-width: 500px) {
   body {
-    margin: 0.5em;
+   margin: 0.5em;
     color: lightblue;
-    background-color: white;
+    background-color:yellow;
     font-style: italic;
   }
-
+#nav {
+  background-color: limegreen;
+}
   #name-header {
-    color: navy;
+    color: limegreen;
   }
   h2 {
-    color: navy;
+    color: white;
   }
-  p {
-    color: black;
+  #about {
+    background-color: limegreen;
   }
+  #experience {
+    background-color: limegreen;
+  }
+  #skills {
+    background-color: limegreen;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  #projects {
+    background-color: limegreen;
+  }
+  #connect {
+    background-color: limegreen;
+  }
+  footer {
+    color:darkblue;
+  }
+
 }
