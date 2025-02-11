@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 5em;
+  gap: 2%;
   list-style: none;
   position: sticky;
   max-width: 100%;
@@ -109,8 +109,8 @@ li {
   font-size: 1rem;
   padding-top: 0.5%;
   padding-left: 1%;
-  margin: 1.5em;
- /* width: 100%;*/
+ /* margin: 1.5em;*/
+  width: 100%;
 
 }
 
@@ -139,7 +139,7 @@ ul {
 #projects ul {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   
 
@@ -152,7 +152,7 @@ ul {
   border-color: blanchedalmond;
   justify-content: space-around;
   padding-top: 0.05%;
-  padding-left: 1%;
+  padding-left: 1.5em
   margin: 1.5em;
   padding: 1em;
 }
@@ -183,7 +183,7 @@ ul {
 @media (max-width: 800px) {
   body {
     margin: 1em;
-    background-color: black;
+    background-color: white;
     font-size: 1.5em;
   }
   #nav {
@@ -199,6 +199,9 @@ ul {
     color: darkblue;
     background-color: red;
   }
+  .exp-heading {
+    color:black;
+  }
   .job-1 {
     width: auto;
   }
@@ -211,7 +214,7 @@ ul {
     h2 {
       font-family: 'Arial', sans-serif;
       font-size: 24px;
-      color: red;
+      color: black;
       text-align: center;
       margin-bottom: 20px;
 
@@ -223,7 +226,7 @@ ul {
     font-size: .5em;
     margin-bottom: 1em;
     display: block;
-    color:black; 
+    color:red;
     
 }
 
@@ -234,7 +237,10 @@ ul {
   #projects {
     color: darkblue;
     background-color: red;
-  }
+   }
+   #projects ul {
+    flex-direction: column;
+   }
   #connect {
     color: darkblue;
     background-color: red;
@@ -304,6 +310,9 @@ ul {
   }
   #projects {
     background-color: limegreen;
+  }
+  #projects ul {
+    flex-direction: column;
   }
   #connect {
     background-color: limegreen;
